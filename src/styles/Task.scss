@@ -1,0 +1,51 @@
+.taskBody {
+  cursor: auto;
+  color: #FFFF;
+  background-color: var(--gray-500);
+
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  display: flex;
+  align-content: center;
+
+  .content{
+    margin-right: auto;
+    word-wrap: break-word;
+    width: 39rem;
+  }
+}
+
+.checkbox {
+  cursor: pointer;
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+
+  border: 2px solid var(--blue);
+  border-radius: 100%;
+  margin-right: 0.75rem;
+  transition: background-color 0.5s;
+
+  &:checked {
+    transition: background-color 0.5s;
+    background-color: var(--purple-dark);
+    border-color: var(--purple-dark);
+  }
+}
+
+.checkbox:checked ~ .content {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.trash {
+  opacity: 0.6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+}

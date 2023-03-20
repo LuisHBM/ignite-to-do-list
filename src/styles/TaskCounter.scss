@@ -1,0 +1,52 @@
+.counterContainer {
+  max-width: 46rem;
+  height: auto;
+  margin: auto;
+
+  font-weight: 700;
+
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--gray-400);
+
+  display: flex;
+
+  .created {
+    width: 8.7rem;
+    display: flex;
+    margin-right: auto;
+
+    div {
+      font-size: 0.75rem;
+      color: #FFFF;
+
+      background: var(--gray-400);
+      border-radius: 100%;
+      padding: 2px 8px;
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: var(--blue);
+      margin-right: 0.5rem;
+    }
+  }
+
+  .completed {
+    width: 6.9rem;
+    display: flex;
+
+    div {
+      font-size: 0.75rem;
+      color: #FFFF;
+      background: var(--gray-400);
+      border-radius: 100%;
+      padding: 2px 8px;
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: var(--purple);
+      margin-right: 0.5rem;
+    }
+  }
+}
