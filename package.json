@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://luishbm.github.io/",
+  "homepage": "https://luishbm.github.io/ignite-to-do-list/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
